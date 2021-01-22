@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "StarDictToSQLiteDB": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\0src\\dictionary\\stardict-dicts\\spanish\\stardict-es-es_Moliner-2.4.2\\es-es_Moliner.idx\""
+    }
+  }
+}

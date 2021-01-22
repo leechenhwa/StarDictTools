@@ -1,0 +1,36 @@
+﻿
+Command Line Version User's Guide
+==================================
+7z.exe is the command line version of 7-Zip. 7z.exe uses 7z.dll from the 7-Zip package. 7z.dll is used by the 7-Zip File Manager also. 
+
+7za.exe (a = alone) is a standalone version of 7-Zip. 7za.exe supports only 7z, xz, lzma, cab, zip, gzip, bzip2 and tar formats. 7za.exe doesn't use external modules. 
+
+Command Line Commands
+==================================
+The command is the first non-switch argument on the command line.
+
+Command names are not case sensitive.
+
+See also Command Line Syntax for more details about using the command line.
+
+Commands quick reference
+----------------------------------
+Command Description 
+a Add 
+b Benchmark 
+d Delete 
+e Extract 
+h Hash 
+i Show information about supported formats 
+l List 
+rn Rename 
+t Test 
+u Update 
+x eXtract with full paths 
+
+Examples
+> 7z e archive.zip
+extracts all files from archive archive.zip to the current directory.
+
+> 7z e archive.zip -oc:\soft 
+extracts all files from archive archive.zip to folder c:\soft.

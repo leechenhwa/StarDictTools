@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarDictTools", "StarDictTools\StarDictTools.csproj", "{13292B2B-8C71-40B9-A403-3C8ACA11BDA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarDictToSQLiteDB", "StarDictToSQLiteDB\StarDictToSQLiteDB.csproj", "{F82123DC-3479-4A5F-9B2B-4C14B7C2BC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarDictToSQLiteDBTests", "StarDictToSQLiteDBTests\StarDictToSQLiteDBTests.csproj", "{B341E2B8-BA2E-416F-B024-53166EEBF28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarDbConvert", "StarDbConvert\StarDbConvert.csproj", "{345B64D6-38CB-40B0-A6C5-ECF0B7456E64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13292B2B-8C71-40B9-A403-3C8ACA11BDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13292B2B-8C71-40B9-A403-3C8ACA11BDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13292B2B-8C71-40B9-A403-3C8ACA11BDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13292B2B-8C71-40B9-A403-3C8ACA11BDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82123DC-3479-4A5F-9B2B-4C14B7C2BC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82123DC-3479-4A5F-9B2B-4C14B7C2BC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82123DC-3479-4A5F-9B2B-4C14B7C2BC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82123DC-3479-4A5F-9B2B-4C14B7C2BC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B341E2B8-BA2E-416F-B024-53166EEBF28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B341E2B8-BA2E-416F-B024-53166EEBF28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B341E2B8-BA2E-416F-B024-53166EEBF28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B341E2B8-BA2E-416F-B024-53166EEBF28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345B64D6-38CB-40B0-A6C5-ECF0B7456E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345B64D6-38CB-40B0-A6C5-ECF0B7456E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345B64D6-38CB-40B0-A6C5-ECF0B7456E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345B64D6-38CB-40B0-A6C5-ECF0B7456E64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E9D742E-8B4C-4F7D-A59B-17811122D463}
+	EndGlobalSection
+EndGlobal
